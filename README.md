@@ -8,7 +8,7 @@ Sample employee register form using HTML and CSS
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
     <li><a href="#Contact">Contact</a></li>
   </ol>
-  
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions are welcome, please feel free to to make it better. Your contribution is **highly appreciated**
@@ -31,10 +31,10 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Contact
  
-<a href="https://www.linkedin.com/in/rauf-alibakhshov-6b5aa5210/">
+<a href="https://www.linkedin.com/in/rauf-alibakhshov-6b5aa5210/" target="_blank">
     <img height="40" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-306.png"/>
 </a>
 
-<a href="https://open.spotify.com/playlist/7KmIUNWrK8wEHfQcQfFrQ1?si=0e2d44043b5a40a4">
+<a href="https://open.spotify.com/playlist/7KmIUNWrK8wEHfQcQfFrQ1?si=0e2d44043b5a40a4" target="_blank">
     <img height="40" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/315_Spotify_logo-128.png"/>
 </a>
