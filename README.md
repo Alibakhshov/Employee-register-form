@@ -4,18 +4,10 @@ Sample employee register form using HTML and CSS
   ## Table of Contents
 
   <ol>
-    <li><a href="#About The Project">About the project</a></li>
-    <li><a href="#Enroll to the course">Enroll to the course</a></li>
-    <li><a href="#What you will learn">What you will learn</a></li>
     <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
     <li><a href="#Contact">Contact</a></li>
   </ol>
-
-
-## About The Course
-
-
 
 <p align="right"><a href="#top">back to top</a></p>
 
@@ -35,15 +27,12 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Acknowledgments
 
-* [Color names](https://htmlcolorcodes.com/color-names/)
-* []()
-* []()
-* [()
-* []()
+* [HTML tables](https://www.geeksforgeeks.org/html-tables/)
+* [HTML Table Attributes](https://www.w3schools.com/html/html_table_headers.asp)
 * [GitHub Pages](https://pages.github.com)
 
 ## Contact
-
+ 
 <a href="https://www.linkedin.com/in/rauf-alibakhshov-6b5aa5210/">
     <img height="40" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-306.png"/>
 </a>
