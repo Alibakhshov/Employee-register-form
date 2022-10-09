@@ -1,6 +1,7 @@
 # Employee-register-form
 Sample employee register form using HTML and CSS 
 
+<img src="image.png">
   ## Table of Contents
 
   <ol>
