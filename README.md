@@ -4,7 +4,7 @@ Sample employee register form using HTML and CSS
   ## Table of Contents
 
   <ol>
-    <li><a href="#Demonstration of the Employee Register Form">Demonstration of the Employee Register Form</a></li>
+    <li><a href="#DemonstrationoftheEmployeeRegisterForm">Demonstration of the Employee Register Form</a></li>
     <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
     <li><a href="#Contact">Contact</a></li>
