@@ -8,9 +8,6 @@ Sample employee register form using HTML and CSS
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
     <li><a href="#Contact">Contact</a></li>
   </ol>
-
-<p align="right"><a href="#top">back to top</a></p>
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions are welcome, please feel free to to make it better. Your contribution is **highly appreciated**
