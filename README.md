@@ -1,7 +1,5 @@
 # Employee-register-form
-
-# IP-Subnet-calculator
-This is a sample calculator for estimating the IP subnet
+Sample employee register form using HTML and CSS 
 
   ## Table of Contents
 
