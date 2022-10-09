@@ -1,52 +1,202 @@
-<!-- <tr> - represents rows
-<td> - used to create data cells
-<th> - used to add table headings
-<caption> - used to insert captions
-<thead> - adds a separate header to the table
-<tbody> - shows the main body of the table
-<tfoot> - creates a separate footer for the table
- -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Register form</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            width: 100%;
+        }
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 7px;
+            text-align: center;
+        }
+
+        table tr:nth-child(even){
+            background-color: lightblue;
+        }
+        table tr:nth-child(odd){
+            background-color: #eee;
+        }
+    </style>
 </head>
+
 <body>
-    <table style="width:30%" >
+    <table>
         <tr>
-            <td >Name</td>
-            <td colspan="3"></td>
-            <td>Sex</td>
-            <td colspan="3"></td>
-            <td>Birth date</td>
-            <td colspan="3"></td>
-            <td>ID Number</td>
-            <td colspan="3"></td>
+        <th style="width:10%">Name</th>
+        <th>     </th>
+        <th>Sex</th>
+        <th></th>
+        <th>Birth date</th>
+        <th></th>
+        <th>ID Number</th>
+        <th></th>
+        <td rowspan="4" colspan="2">Photo</td>
+        </tr>
+        
+        <tr> 
+        <td >People</td> 
+        <td></td> 
+        <td>City</td> 
+        <td></td> 
+        <td>Marital status</td> 
+        <td></td> 
+        <td>Fertility status</td> 
+        <td></td> 
+        </tr> 
+        
+        <tr> 
+        <td colspan="2">Present Address</td> 
+        <td colspan="4"></td> 
+        <td>Phone No.</td> 
+        <td></td> 
+        </tr> 
+        
+        <tr> 
+        <td colspan="2">Mailing address</td> 
+        <td colspan="4"></td> 
+        <td>Zip code</td> 
+        <td></td> 
+        </tr> 
+        
+        <tr> 
+        <td style="height: 60px">Highest education</td> 
+        <td></td> 
+        <td>Major</td> 
+        <td></td> 
+        <td>Foreign language level</td> 
+        <td></td> 
+        <td>Vocational certificate</td> 
+        <td></td> 
+        <td>Professional title</td>
+        <td></td>
+        </tr> 
+        
+        <tr>
+            <th colspan="10">Main Educational Experience</th>
+        </tr>
+        
+        <tr>
+        <th colspan="2">Educational time</th>
+        <th colspan="2">School Name</th> 
+        <th colspan="2">Degree</th>
+        <th colspan="2">Major</th>
+        <th colspan="2">certificate</th>
         </tr>
         <tr>
-            <td>People</td>
-            <td colspan="3"></td>
-            <td>City</td>
-            <td colspan="3"></td>
-            <td>Martical status</td>
-            <td colspan="3"></td>
-            <td>Fertility status</td>
-            <td colspan="3"></td>
+        <td colspan="2">Month/Year* Month/Year</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
         </tr>
         <tr>
-            <td>Present Address</td>
-            <td colspan="3"></td>
-            <td colspan="5">Phone No.</td>
+        <td colspan="2">Month/Year* Month/Year</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        </tr>
+
+        <tr>
+            <th colspan="10">Main Employment History</th>
+        </tr>
+        
+        <tr>
+        <th colspan="2">Employment time</th>
+        <th colspan="2">Company Name</th> 
+        <th colspan="2">Job tittle</th>
+        <th colspan="2">Refferences& Phone <br> number</th>
+        <th colspan="2">Reasons for <br> leaving</th>
         </tr>
         <tr>
-            <td>Mailing Address</td>
-            <td colspan="2"></td>
-            <td>Zip code</td>
-            <td colspan="5"></td>
+        <td colspan="2">Month/Year* Month/Year</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
         </tr>
+        <tr>
+        <td colspan="2">Month/Year* Month/Year</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        </tr>
+        <tr>
+        <td colspan="2">Month/Year* Month/Year</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        </tr>
+
+        
+        <tr>
+            <th colspan="10">Training</th>
+        </tr>
+        
+        <tr>
+        <th colspan="3">Training time</th>
+        <th colspan="2">Training content</th> 
+        <th colspan="3">The Training organization</th>
+        <th colspan="2">Training results</th>
+        </tr>
+        <tr>
+        <td colspan="3">Month/Year* Month/Year</td>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+        <td colspan="2"></td>
+        </tr>
+        <tr>
+        <td colspan="3">Month/Year* Month/Year</td>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+        <td colspan="2"></td>
+        </tr>
+
+        
+        <tr>
+            <td colspan="10">Commintment: I hereby confirm that all the provided information by me is real, if have any cheating, Iwill afford all the consequences. <br> Sign & Date</td>
+        </tr>
+        
+        
+        <tr>
+            <th colspan="10">Famiy members</th>
+        </tr>
+        
+        <tr>
+        <th colspan="3">Name</th>
+        <th colspan="2">Relationship</th> 
+        <th colspan="3">Company name</th>
+        <th colspan="2">Job& Tittle</th>
+        </tr>
+        <tr>
+        <td colspan="3"></td>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+        <td colspan="2"></td>
+        </tr>
+        <tr>
+        <td colspan="3"></td>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+        <td colspan="2"></td>
+        </tr>
+        <tr>
+        <td colspan="3"></td>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+        <td colspan="2"></td>
+        </tr>
+
+        <tr>
+            <th colspan="10">Emergency contact person</th>
+        </tr>
+        
     </table>
 </body>
 </html>
